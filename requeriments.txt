@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-chromadb
-sentence-transformers
-pypdf
+fastapi==0.109.0
+uvicorn==0.27.0
+chromadb==0.4.14
+sentence-transformers==2.2.2
+pypdf==3.16.4

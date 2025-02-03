@@ -4,7 +4,6 @@ import chromadb
 DB_PATH = "./data/chroma_db"
 chroma_client = chromadb.PersistentClient(path=DB_PATH)
 collection = chroma_client.get_or_create_collection(name="documentos")
-
 encoder = SentenceTransformer("all-MiniLM-L6-v2")
 
 def query_database(query):
